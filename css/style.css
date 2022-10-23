@@ -60,6 +60,10 @@ h1, h2, h3, h4, h5, h6, p {
 /* Header */
 /* Logo */
 .logo-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 93px;
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -74,10 +78,34 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* Header navigation */
+.nav-list {
+  display: flex;
+ 
+}
+.nav-list .item +.item {
+  margin-left: 50px;
+}
+.nav-contact {
+  display: flex;
+  margin-left: auto;
+
+  font-family: var(--primary-font);
+
+
+}
+.nav-contact .item +.item {
+  margin-left: 50px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
 .nav-list .link.current {
   color: var(--accent-color);
 }
 .nav-list .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -89,6 +117,8 @@ h1, h2, h3, h4, h5, h6, p {
   color: var(--accent-color);
 }
 .nav-contact .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--secondary-text-color);
 }
 .nav-contact .link:hover,
