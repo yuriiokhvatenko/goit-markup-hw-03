@@ -203,6 +203,13 @@ border: transparent;
   text-align: center;
   letter-spacing: 0.03em;
 }
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 30px * 2) / 3);
+  gap: 30px;
+  padding-bottom: 94px;
+}
 
 /* Team */
 .section.team {
