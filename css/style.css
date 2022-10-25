@@ -340,12 +340,24 @@ padding-bottom: 94px;
   color: #ffffff;
 }
 /* Portfolio list */
-.portfolio-img {
- 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 30px * 2 ) / 3);
+  gap: 30px;
+}
+
+.portfolio-card {
+  border: 1px solid #EEEEEE;
+  border-top: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .portfolio-title {
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
