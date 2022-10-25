@@ -172,7 +172,10 @@ border: transparent;
 }
 /* Features */
 .features-list {
-  margin-right: 30px;
+  display: flex;
+  flex-basis: 270px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .features-title {
   margin-bottom: 10px;
