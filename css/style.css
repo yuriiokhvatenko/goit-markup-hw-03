@@ -39,6 +39,8 @@ p {
   text-decoration: none;
 }
 .section {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--primary-bcg-color);
 }
 .visually-hidden {
@@ -178,8 +180,7 @@ p {
 .features-list {
   display: flex;
   flex-basis: 270px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+
 }
 .features-title {
   margin-bottom: 10px;
@@ -199,6 +200,10 @@ p {
 }
 
 /* Projects */
+.section.projects {
+  padding-top: 0;
+}
+
 .projects-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -212,7 +217,6 @@ p {
   flex-wrap: wrap;
   flex-basis: calc((100% - 30px * 2) / 3);
   gap: 30px;
-  padding-bottom: 94px;
 }
 
 /* Team */
@@ -303,10 +307,6 @@ p {
 
 /* Portfolio */
 /* Buttons */
-.section.portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 .buttons-portfolio {
   gap: 8px;
   margin-left: auto;
