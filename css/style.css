@@ -236,6 +236,7 @@ p {
   flex-basis: calc((100% - 30px * 3) / 4);
   gap: 30px;
   /* background-color: var(--primary-bcg-color); */
+  /* Ярослав казав що на картки потрібно задати основний колір фону */
 }
 .team .card {
   padding-top: 30px;
