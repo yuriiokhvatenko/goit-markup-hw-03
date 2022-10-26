@@ -230,6 +230,9 @@ p {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.team-photo {
+  display: block;
+}
 .team-list {
   display: flex;
   flex-wrap: wrap;
