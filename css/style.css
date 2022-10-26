@@ -244,6 +244,7 @@ p {
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
+  background-color: var(--primary-bcg-color);
 }
 
 .team-title {
