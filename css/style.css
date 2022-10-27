@@ -96,7 +96,7 @@ p {
 .nav-contact {
   display: flex;
   margin-left: auto;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -184,8 +184,12 @@ p {
 /* Features */
 .features-list {
   display: flex;
+}
+.features-item {
   flex-basis: 270px;
-
+}
+.features-item:not(:last-child) {
+  margin-right: 30px;
 }
 .features-title {
   margin-bottom: 10px;
@@ -230,7 +234,7 @@ p {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.team-photo {
+.img_block {
   display: block;
 }
 .team-list {
@@ -238,14 +242,10 @@ p {
   flex-wrap: wrap;
   flex-basis: calc((100% - 30px * 3) / 4);
   gap: 30px;
-  /* background-color: var(--primary-bcg-color); */
-  /* Ярослав казав що на картки потрібно задати основний колір фону */
 }
 .team .card {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
   text-align: center;
   background-color: var(--primary-bcg-color);
 }
@@ -282,7 +282,7 @@ p {
 }
 .logo-footer {
   display: inline-block;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
