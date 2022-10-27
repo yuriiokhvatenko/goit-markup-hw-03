@@ -346,6 +346,7 @@ p {
   background: #f5f4fa;
   color: var(--primary-text-color);
   border: transparent;
+  border-radius: 4px;
   cursor: pointer;
 }
 .btn-portfolio:hover,
