@@ -141,8 +141,11 @@ p {
   margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
+  max-width: 1600px;
   text-align: center;
-
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero_background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: var(--hero-footer-color);
 }
 .hero-title {
@@ -187,6 +190,41 @@ p {
 }
 .features-item {
   flex-basis: 270px;
+}
+.features-item::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.antenna::before {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;
+  background-image: url(../images/antenna.png);
+}
+.clock::before {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;
+background-image: url(../images/clock.png);
+}
+.diagram::before {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;
+  background-image: url(../images/diagram.png);
+}
+.astronaut::before {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;
+  background-image: url(../images/astronaut.png);
 }
 .features-item:not(:last-child) {
   margin-right: 30px;
