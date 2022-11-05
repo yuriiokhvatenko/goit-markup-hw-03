@@ -128,6 +128,7 @@ ul {
 .nav-list .link:hover,
 .nav-list .link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .nav-contact .link {
   padding-top: 32px;
@@ -137,6 +138,11 @@ ul {
 .nav-contact .link:hover,
 .nav-contact .link:focus {
   color: var(--accent-color);
+}
+.envelope {
+  width: 16px;
+  height: 12px;
+  fill: var(--secondary-text-color);
 }
 /* Hero */
 .hero {
