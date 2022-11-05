@@ -128,7 +128,6 @@ ul {
 .nav-list .link:hover,
 .nav-list .link:focus {
   color: var(--accent-color);
-  fill: var(--accent-color);
 }
 .nav-contact .link {
   padding-top: 32px;
@@ -139,11 +138,18 @@ ul {
 .nav-contact .link:focus {
   color: var(--accent-color);
 }
+.contant-link {
+  display: flex;
+  align-items: center;
+}
 .envelope {
   width: 16px;
   height: 12px;
-  fill: var(--secondary-text-color);
+  fill: currentColor;
+  margin-right: 10px;
+  
 }
+
 /* Hero */
 .hero {
   margin-left: auto;
